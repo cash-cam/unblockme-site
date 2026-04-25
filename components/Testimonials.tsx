@@ -1,39 +1,27 @@
 const reviews = [
   {
-    name: 'Sarah T.',
-    location: 'Henderson',
+    name: 'Charlotte',
+    location: 'Google Review',
     rating: 5,
-    text: "Had a blocked drain at 9pm on a Sunday — called UnblockMe and they were here within the hour. Professional, tidy, and sorted the problem quickly. Will absolutely use them again.",
+    text: 'I had an urgent plumbing job due to a cracked waste pipe and Unblockme prioritized the job due to the urgency of it, undertook the repair with top quality workmanship. James is highly recommended to all. Experienced, honest and an affordable service.',
   },
   {
-    name: 'Mark R.',
-    location: 'New Lynn',
+    name: 'Nick Knight',
+    location: 'Google Review',
     rating: 5,
-    text: "Used their CCTV inspection service after noticing slow drains throughout the house. Found a root intrusion we never would've known about. Fixed it same week. Great communication throughout.",
+    text: 'Excellent plumbing company to deal with. From initial contact to completion of the job James demonstrated reliability and good communication. Workmanship was top notch. Highly recommend Unblockme Limited for all your plumbing and drainage requirements.',
   },
   {
-    name: 'Priya K.',
-    location: 'Waitākere',
+    name: 'Tanya Nicks',
+    location: 'Google Review',
     rating: 5,
-    text: 'Honest, upfront pricing and they showed up when they said they would. Fixed our blocked kitchen drain in under an hour. Really refreshing to find a tradie you can trust.',
+    text: "James is a very reliable, hard working specialised plumber who I highly recommend!! He's completed a number of different jobs for me including replacing my waste master, cleaning and sealing roof gutters, and clearing a blocked sewage line. I'll definitely be using his business again when needed!!",
   },
   {
-    name: 'James O.',
-    location: 'Te Atatū',
+    name: 'Nicola Day',
+    location: 'Google Review',
     rating: 5,
-    text: "These guys are the real deal. Had a recurring blockage issue that two other companies couldn't fix permanently. UnblockMe found the actual cause and solved it for good.",
-  },
-  {
-    name: 'Linda W.',
-    location: 'Glen Eden',
-    rating: 5,
-    text: "Called them for an emergency on Christmas Eve and they still came out. I was blown away. Genuinely caring team who take pride in their work. Five stars without hesitation.",
-  },
-  {
-    name: 'Tom B.',
-    location: 'Avondale',
-    rating: 5,
-    text: "Competitive pricing, fast response, and no upselling. They told me exactly what was wrong and what it would cost. Job done right the first time. Couldn't ask for more.",
+    text: 'Reliable and honest. Gave me options and kept me informed. Will use again. Thanks James!',
   },
 ]
 
@@ -83,7 +71,7 @@ export default function Testimonials() {
         </div>
 
         {/* Reviews grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {reviews.map((review, i) => (
             <div
               key={review.name}
